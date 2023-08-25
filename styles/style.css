@@ -1,4 +1,4 @@
-
+/* Шапка */
 .header {
     font-size: 18px;
     font-weight: 400;
@@ -57,4 +57,77 @@
     width: 33.33%;
     line-height: 135%;
     text-underline-position: under;
+}
+
+/* Ковёр */
+
+.cover {
+    color: #fff;
+    background: url("../images/cover.jpg") center/cover;
+}
+
+.cover_title {
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    gap: 10px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover_description {
+    display: flex;
+    margin-top: 120px;
+    justify-content: end;
+    align-items: center;
+}
+
+.cover_description-text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: end;
+    word-spacing: 17.5px;
+    text-transform: uppercase;
+    margin-right: 5%;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.60);
+    height: inherit;
+    padding: 165px 50px 50px;
+}
+
+.aligned-text_center {
+    text-align: center;
+    width: 100%;
+}
+
+.aligned-text_left {
+    text-align: left;
+}
+
+
+.aligned-text_right {
+    text-align: right;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+
+.bet-button {
+    font-size: 22px;
+    font-weight: 400;
+    background: none;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    color:#fff;
+    border-radius: 0;
+    padding: 12px 32px;
 }
