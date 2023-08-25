@@ -256,3 +256,51 @@
     gap: 25px;
 }
 
+/* футер */
+
+.footer {
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 90px;
+}
+
+.footer_address {
+    padding-right: 15.5%;
+}
+
+.footer_menu {
+    display: flex;
+    flex: 0 0 auto;
+    width: auto;
+    flex-direction: column;
+}
+
+.footer_menu-list {
+    text-align: center;
+    list-style: none;
+}
+
+.footer_menu-link {
+    text-underline-position: under;
+}
+/* ВЫСКАЗЫВАЮ СВОЕ НЕДОВОЛЬСТВО, ПОЧЕМУ ТУТ ЛИНИЯ НОРМ, А СВЕРХУ НЕ НОРМ ЧЕ Я НЕ ТАК ДЕЛАЮ */
+.footer_menu-link-active {
+    text-decoration: none;
+}
+
+.footer_social-list {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    width: 33.33%;
+    flex: 0 0 auto;
+    gap: 48px;
+}
+
+.footer_social-icon {
+    width: 48px;
+    height: 48px;
+}
+
