@@ -1,2 +1,2 @@
-# Sprint #1 YandexPracticum
+# Sprint №1 YandexPracticum
 Проект "Оно тебе надо"
