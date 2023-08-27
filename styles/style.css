@@ -1,8 +1,8 @@
 /* Header */
 
 .header {
-  display: flex;
   font-size: 18px;
+  display: flex;
   font-weight: 400;
   padding: 92px 50px 96px;
   flex-wrap: wrap;
