@@ -36,9 +36,9 @@
 
 .header_logo {
   display: block;
+  flex: 0 0 auto;
   width: 148px;
   height: 105px;
-  flex: 0 0 auto;
 }
 
 .header_logo-image {
@@ -47,7 +47,7 @@
 }
 
 .header_address {
-  padding-left: 15.5%;
+  padding-left: 14.5%;
 }
 
 .address {
@@ -264,7 +264,7 @@
 }
 
 .footer_address {
-  padding-right: 15.5%;
+  padding-right: 14.5%;
 }
 
 .footer_menu {
